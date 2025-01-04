@@ -16,7 +16,11 @@ This first task is focused on scraping and collecting customer feedback and revi
 3. Present insights
 
 Objective: Understanding customer reviews and identifying key themes and sentiments.
+
+
 Methodology: Scrape data from Skytrax, preprocess it and use LDA for topic modeling and Vader for sentiment analysis.
+
+
 Key Findings: 
 • Overall Positive Experience: 54.9% positive reviews vs 30.9% negative
 • Strong positive sentiment clustering (0.75-1.0 range)
