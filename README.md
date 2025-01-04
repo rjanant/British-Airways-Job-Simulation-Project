@@ -21,5 +21,10 @@ Key Findings:
 • Overall Positive Experience: 54.9% positive reviews vs 30.9% negative
 • Strong positive sentiment clustering (0.75-1.0 range)
 • High focus on core service elements: seating, timing, and crew
+
+
 ![image](https://github.com/user-attachments/assets/3c34ac80-9285-4d13-85e0-cb853d730a42)
 * This suggests that overall, customers are generally satisfied with British Airways services.
+
+
+Task 2:
