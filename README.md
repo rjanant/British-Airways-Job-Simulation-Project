@@ -42,7 +42,7 @@ Methodology:
 * To ensure the class distribution’s consistency across folds, we utilized StratifiedKFold.
 * Furthermore, we adjusted the threshold for predicting class 1 (the minority class) based on the ROC curve to optimize recall and achieve a more balanced evaluation of metrics.
 
+[Presentation Template - Task 2.pdf](https://github.com/user-attachments/files/18312194/Presentation.Template.-.Task.2.pdf)
 
-![Slide1](https://github.com/user-attachments/assets/3c5ec185-c33b-404a-9a60-bd276d587d3a)
 
 
