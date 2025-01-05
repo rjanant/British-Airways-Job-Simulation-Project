@@ -32,3 +32,24 @@ Key Findings:
 
 
 Task 2:
+
+Explore and prepare the dataset, considering new features for a predictive model. Train a machine learning model to predict customer bookings, evaluating its performance and interpreting variable contributions.
+
+* Random forest is chosen for its ability to handle various data types, provide feature importance, mitigate overfitting and can capture non-linear relationships.
+
+Methodology: 
+* An evident imbalance (8504 vs. 1496 samples) distorted the model’s preference for the majority class (0). Consequently, we employed SMOTE and SMOTEENN to enhance recall for the minority class, which is paramount for identifying holiday buyers and addressing class imbalance.
+* To ensure the class distribution’s consistency across folds, we utilized StratifiedKFold.
+* Furthermore, we adjusted the threshold for predicting class 1 (the minority class) based on the ROC curve to optimize recall and achieve a more balanced evaluation of metrics.
+
+Key Findings:
+ * Booking origin is the strongest predictor, accounting for ~21% of model decisions
+ * Length of stay and total add-ons are the next most important features
+ * Model shows good discrimination ability (AUC: 0.77) but has room for improvement
+ * High false positive rate suggests opportunity to refine targeting criteria
+ * Travel-related features (route, popularity) and customer preferences (baggage, meals) show moderate importance
+
+
+![Slide1](https://github.com/user-attachments/assets/3c5ec185-c33b-404a-9a60-bd276d587d3a)
+
+
